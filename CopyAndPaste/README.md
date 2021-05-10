@@ -26,6 +26,8 @@ Folder structure for running this tasks need to be like the following
 
 ## Copy and Paste Augmentation
 
+Implements: [Copy-and-Paste a simple augmentation technique](https://arxiv.org/abs/2012.07177)
+
 This is a technique used to improve the size of training samples by copying and pasting the objects masked in an image in another background.
 We need to make sure that the orientation for the objects in the augmented images are actually something which a real-scenario can be like. If not
 this augmentation can increase the complication for the model. 
