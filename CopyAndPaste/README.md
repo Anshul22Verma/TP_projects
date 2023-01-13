@@ -1,16 +1,13 @@
-This is the first project which was worked on in some spare time
-and it is still under development. For the project I have use Anaconda environment
+For the project I have use Anaconda environment
 but one can easily use Linux for this task as well.
  
- # Prerequisits
+# Prerequisits
+Create an env for `TP-Projects`. with the all the modules necessary.
  
- Create a env for TP-Projects. with the all the modules necessary.
+## Pre-processing usage
+Both the scripts are writen as modules and can easily be executed wit CLI
  
- ## Pre-processing usage
- 
- Both the scripts are writen as modules and can easily be executed wit CLI
- 
- ![alt text](./static/cli.png)
+![alt text](./static/cli.png)
 
 `python -m  create_mask <raw_img_dir>`
 These images have either gotten a mask or have gotten label-me annotations which can be used to create masks.
@@ -19,7 +16,7 @@ These images have either gotten a mask or have gotten label-me annotations which
 The background images should not have any humans otherwise the purpose of this task will not be met.
 
 Folder structure for running this tasks need to be like the following
- ![alt text](./static/folder_structure.png)
+![alt text](./static/folder_structure.png)
  
  Some of these folders and files are created after processing raw-images and performing the augmentations.
  The folder which you need are *img*, *json_mask*, *raw* and *raw_mask*.
