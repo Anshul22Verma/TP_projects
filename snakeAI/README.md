@@ -1,7 +1,8 @@
 RL agent to play the Snake game
 
-RED - BOMB
-GREEN - FOOD
+RED 📕 → 💣
+
+GREEN 📗 → 🥦
 
  
 # Prerequisits
