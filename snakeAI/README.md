@@ -22,3 +22,6 @@ Just run `agent.py` in this directory from this directory
 ```bash
 python agent.py
 ```
+
+## Preview
+![alt text](./static/preview.png)
